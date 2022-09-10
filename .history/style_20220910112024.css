@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+:root {
+  --white: #FFF;
+  --whitesmoke: #F9F9F9;
+  --light-grey: #ECECEC;
+  --grey: #C4C4C4;
+  --medium-grey: #A7A7A7;
+  --deep-grey: #343434;
+  --black: #000000;
+  --blue: #1B77F3;
+  --red: #CF3C3F;
+}
+
+main {
+  display: flex;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 500px;
+  min-height: 100vh;
+  padding: clamp(35px, 8%, 70px);
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__logo {
+  width: 130px;
+  margin-bottom: 80px;
+}
+
+.login__title {
+  color: var(--deep-grey);
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.login__label {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  background-color: var(--light-grey);
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  outline: none;
+  font-size: 0.9em;
+  padding: 25px 10px 10px;
+  font-weight: 600;
+  color: var(--deep-grey);
+}

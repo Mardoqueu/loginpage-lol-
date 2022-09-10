@@ -195,11 +195,3 @@ main {
   margin-bottom: 5px;
   font-weight: 700;
 }
-
-.wallpaper {
-  width: 100%;
-  background-image: url('./images/wallpaper.jpg');
-  background-size: cover;
-  background-position: center;
-  flex: 1;
-}

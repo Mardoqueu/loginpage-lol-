@@ -70,7 +70,8 @@ main {
   font-weight: 600;
   color: var(--deep-grey);
 }
-.login__label span{
+
+.login__label span {
   position: absolute;
   font-size: 0.8em;
   font-weight: 700;
@@ -81,14 +82,14 @@ main {
   transition: all 200ms ease;
 }
 
-.input:focus{
+.input:focus {
   background-color: var(--whitesmoke);
   border: 2px solid var(--deep-grey);
 }
 
 .login__label .span-active {
-    font-size: 0.7em;
-    margin: 8px 10px;
+  font-size: 0.7em;
+  margin: 8px 10px;
 }
 
 .login__icons {
@@ -101,7 +102,6 @@ main {
 .login__icons img {
   width: 20px;
 }
-
 
 .icons__button {
   width: 33.33%;
